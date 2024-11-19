@@ -104,7 +104,7 @@ function paste(className) {
           elements[0].value = text;
         })
         .catch(function (err) {
-          console.error("Ошибка при вставке текста из буфера: ", err);
+          console.error("РћС€РёР±РєР° РїСЂРё РІСЃС‚Р°РІРєРµ С‚РµРєСЃС‚Р° РёР· Р±СѓС„РµСЂР°: ", err);
         });
     }
   }
@@ -407,13 +407,13 @@ function promo() {
 
   if (promoInput.value.trim() !== "") {
     const promoNextSpan = document.querySelector(".promoNext span");
-    promoNextSpan.textContent = "Далее";
+    promoNextSpan.textContent = "Р”Р°Р»РµРµ";
 
     const promoNext = document.querySelector(".promoNext");
     promoNext.classList.remove("white");
 
     const promoButtonSpan = document.querySelector(".promoButton span");
-    promoButtonSpan.textContent = "Применен";
+    promoButtonSpan.textContent = "РџСЂРёРјРµРЅРµРЅ";
 
     const promoButton = document.querySelector(".promoButton");
     promoButton.disabled = true;
