@@ -1,3 +1,4 @@
+console.log('i run')
 const accordionItems = document.querySelectorAll(".accordion__item");
 
 const toggleAccordion = (item) => {
